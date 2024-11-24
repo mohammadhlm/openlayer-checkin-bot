@@ -32,8 +32,7 @@ This script automates check-in interaction for OpenLayer extension.
 3. To get your `token`, follow this step:
 	- Open the OpenLayer extension and Login to your account, the extension will show in side of your browser.
 	- Go to `inspect element`, right-click the extension then pick inspect elements/inspect.
-	- Go to application tab - look for Local Storage in storage list -> click `chrome-extension://bcakokeeafaehcajfkajcpbdkfnoahlh
-chrome-extension://bcakokeeafaehcajfkajcpbdkfnoahlh` and you will see your `_open_layer_token_`.
+	- Go to application tab - look for Local Storage in storage list -> click `chrome-extension://bcakokeeafaehcajfkajcpbdkfnoahlh` and you will see your `_open_layer_token_`.
 	- or you can go Console tab and paste this 
 	```bash
 	localStorage.getItem('_open_layer_token_')

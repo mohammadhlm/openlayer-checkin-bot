@@ -4,7 +4,7 @@
 This script automates check-in interaction for OpenLayer extension.
 
 ## Features
-- **Automated check-in interaction**
+- **Automated check-in interaction everyday**
 - **Multi account**
 - **Proxy support**
 

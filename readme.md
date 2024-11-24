@@ -27,7 +27,7 @@ This script automates check-in interaction for OpenLayer extension.
 	```
 
 ## Usage
-1. Register to OpenLayer extension account first, if you dont have you can download the extension and register (Connect wallet, Twitter and Complete the Quest) [here](https://chromewebstore.google.com/detail/openlayer-extension/bcakokeeafaehcajfkajcpbdkfnoahlh).
+1. Register to OpenLayer extension account first, if you dont have you can download the extension and register (Connect wallet, Twitter and Complete the Quest/task) [here](https://chromewebstore.google.com/detail/openlayer-extension/bcakokeeafaehcajfkajcpbdkfnoahlh).
 2. Set and Modify `config.js`. Below how to setup this file. Put your `_open_layer_token_` in the file. Below how to get it:
 3. To get your `token`, follow this step:
 	- Open the OpenLayer extension and Login to your account, the extension will show in side of your browser.

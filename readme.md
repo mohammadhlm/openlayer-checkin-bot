@@ -37,7 +37,7 @@ This script automates check-in interaction for OpenLayer extension.
 	```bash
 	localStorage.getItem('_open_layer_token_')
 	```
-4. If you want to use `proxy`, you can add in the config file for each token/bearer.
+4. If you want to use `proxy`, you can add in the config file for each token.
 6. Put your data in `config.js`
 	```bash
 	// config.js

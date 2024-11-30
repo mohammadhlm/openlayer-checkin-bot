@@ -15,16 +15,16 @@ This script automates check-in interaction for OpenLayer extension.
 
 1. Clone the repository to your local machine:
    ```bash
-	git clone https://github.com/recitativonika/openlayer-checkin-bot.git
+   git clone https://github.com/recitativonika/openlayer-checkin-bot.git
    ```
 2. Navigate to the project directory:
-	```bash
-	cd openlayer-checkin-bot
-	```
-3. Install the necessary dependencies:
-	```bash
-	npm install
-	```
+   ```bash
+   cd openlayer-checkin-bot
+   ```
+4. Install the necessary dependencies:
+   ```bash
+   npm install
+   ```
 
 ## Usage
 1. Register to OpenLayer extension account first, if you dont have you can download the extension and register (Connect wallet, Twitter and Complete the Quest/task) [here](https://chromewebstore.google.com/detail/openlayer-extension/bcakokeeafaehcajfkajcpbdkfnoahlh).

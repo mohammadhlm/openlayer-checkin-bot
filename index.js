@@ -3,7 +3,7 @@ const readlineSync = require('readline-sync');
 const axios = require('axios');
 const moment = require('moment');
 const configuration = require('./config');
-const { HttpsProxyAgent } = require('https-proxy-agent');
+const { SocksProxyAgent } = require('socks-proxy-agent'); // تغییر این خط
 
 const apiurl = 'https://us-central1-openoracle-de73b.cloudfunctions.net';
 
@@ -62,7 +62,7 @@ async function authenticateUser(token, proxyAddress = null) {
   };
 
   if (proxyAddress) {
-    requestConfig.httpsAgent = new HttpsProxyAgent(proxyAddress);
+    requestConfig.httpAgent = new SocksProxyAgent(proxyAddress); // تغییر این خط
   }
 
   const { data } = await axios(requestConfig);

@@ -15,7 +15,7 @@ This script automates check-in interaction for OpenLayer extension.
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/mohammadhlm/openlayer-checkin-bot.git
+   git clone https://github.com/recitativonika/openlayer-checkin-bot.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -26,7 +26,7 @@ This script automates check-in interaction for OpenLayer extension.
    npm install
    ```
    ```bash
-npm install socks-proxy-agent
+   npm install socks-proxy-agent
    ```
 
 ## Usage
@@ -60,7 +60,4 @@ npm install socks-proxy-agent
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Note
-This script only for testing purpose, using this script might violates ToS and may get your account permanently banned.
 
-My reff code if you want to use :), [you can check in here](https://gist.github.com/recitativonika/f2581184a0b724a451dfe1964241bf06)
